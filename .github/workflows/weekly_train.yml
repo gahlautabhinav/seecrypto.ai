@@ -1,0 +1,40 @@
+name: Weekly Crypto Model, Plot & Log Update
+
+on:
+  schedule:
+    - cron: "0 2 * * 0"  # Every Sunday at 2 AM UTC
+  workflow_dispatch:     # Allow manual trigger from GitHub Actions page
+
+jobs:
+  train:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Checkout your repo
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
+      # Step 2: Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.10
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Step 4: Run your weekly trainer
+      - name: Run weekly trainer
+        run: python weekly_trainer.py
+
+      # Step 5: Commit updated models, plots & logs back to repo
+      - name: Commit and push updated files
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add models/ plots/ logs/
+          git commit -m "Weekly update: models, plots & logs [skip ci]" || echo "No changes to commit"
+          git push
