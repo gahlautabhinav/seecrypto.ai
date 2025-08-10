@@ -14,7 +14,7 @@ from pathlib import Path
 
 # ========== Configuration ==========
 st.set_page_config(
-    page_title="🚀 CryptoAI Oracle", 
+    page_title="🚀 seecrypto.ai", 
     page_icon="🔮", 
     layout="wide",
     initial_sidebar_state="expanded"
@@ -404,7 +404,7 @@ def create_feature_chart(features_df, coin_id):
 # ========== Main App ==========
 def main():
     # Header
-    st.markdown('<h1 class="main-header">🚀 CryptoAI Oracle</h1>', unsafe_allow_html=True)
+    st.markdown('<h1 class="main-header">🚀 seecrypto.ai</h1>', unsafe_allow_html=True)
     st.markdown('<p class="sub-header">Advanced LSTM Neural Network for Cryptocurrency Price Prediction</p>', unsafe_allow_html=True)
     
     # Sidebar
@@ -604,4 +604,5 @@ def main():
     """, unsafe_allow_html=True)
 
 if __name__ == "__main__":
+
     main()
