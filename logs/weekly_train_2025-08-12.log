@@ -1,0 +1,148 @@
+2025-08-12 17:50:59,665 - 🔁 Starting Weekly Model Retraining...
+
+2025-08-12 17:50:59,666 - 🚀 Retraining model for: bitcoin
+2025-08-12 17:51:02,430 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:03,379 - ✅ Retraining completed for: bitcoin
+
+2025-08-12 17:51:08,384 - 🚀 Retraining model for: ethereum
+2025-08-12 17:51:11,687 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:12,506 - ✅ Retraining completed for: ethereum
+
+2025-08-12 17:51:17,506 - 🚀 Retraining model for: cardano
+2025-08-12 17:51:20,198 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:20,333 - 5 out of the last 13 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7ff63047d990> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-08-12 17:51:21,016 - ✅ Retraining completed for: cardano
+
+2025-08-12 17:51:26,021 - 🚀 Retraining model for: ripple
+2025-08-12 17:51:28,829 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:28,959 - 5 out of the last 13 calls to <function TensorFlowTrainer.make_predict_function.<locals>.one_step_on_data_distributed at 0x7ff628f60430> triggered tf.function retracing. Tracing is expensive and the excessive number of tracings could be due to (1) creating @tf.function repeatedly in a loop, (2) passing tensors with different shapes, (3) passing Python objects instead of tensors. For (1), please define your @tf.function outside of the loop. For (2), @tf.function has reduce_retracing=True option that can avoid unnecessary retracing. For (3), please refer to https://www.tensorflow.org/guide/function#controlling_retracing and https://www.tensorflow.org/api_docs/python/tf/function for  more details.
+2025-08-12 17:51:29,638 - ✅ Retraining completed for: ripple
+
+2025-08-12 17:51:34,643 - 🚀 Retraining model for: solana
+2025-08-12 17:51:37,789 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:38,595 - ✅ Retraining completed for: solana
+
+2025-08-12 17:51:43,601 - 🚀 Retraining model for: dogecoin
+2025-08-12 17:51:45,929 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:51:46,718 - ✅ Retraining completed for: dogecoin
+
+2025-08-12 17:51:51,723 - 🚀 Retraining model for: litecoin
+2025-08-12 17:51:51,764 - ❌ Failed retraining for litecoin: 'prices'
+
+2025-08-12 17:52:06,779 - 🚀 Retraining model for: chainlink
+2025-08-12 17:52:06,821 - ❌ Failed retraining for chainlink: 'prices'
+
+2025-08-12 17:52:21,826 - 🚀 Retraining model for: polkadot
+2025-08-12 17:52:21,906 - ❌ Failed retraining for polkadot: 'prices'
+
+2025-08-12 17:52:36,921 - 🚀 Retraining model for: uniswap
+2025-08-12 17:52:36,952 - ❌ Failed retraining for uniswap: 'prices'
+
+2025-08-12 17:52:51,968 - 🚀 Retraining model for: avalanche-2
+2025-08-12 17:52:55,262 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:52:56,040 - ✅ Retraining completed for: avalanche-2
+
+2025-08-12 17:53:01,045 - 🚀 Retraining model for: stellar
+2025-08-12 17:53:03,770 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:53:04,494 - ✅ Retraining completed for: stellar
+
+2025-08-12 17:53:09,500 - 🚀 Retraining model for: cosmos
+2025-08-12 17:53:12,165 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:53:12,866 - ✅ Retraining completed for: cosmos
+
+2025-08-12 17:53:17,871 - 🚀 Retraining model for: tron
+2025-08-12 17:53:21,182 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:53:21,967 - ✅ Retraining completed for: tron
+
+2025-08-12 17:53:26,972 - 🚀 Retraining model for: vechain
+2025-08-12 17:53:29,781 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:53:30,588 - ✅ Retraining completed for: vechain
+
+2025-08-12 17:53:35,593 - 🚀 Retraining model for: the-graph
+2025-08-12 17:53:40,811 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:53:41,655 - ✅ Retraining completed for: the-graph
+
+2025-08-12 17:53:46,660 - 🚀 Retraining model for: aave
+2025-08-12 17:53:46,693 - ❌ Failed retraining for aave: 'prices'
+
+2025-08-12 17:54:01,697 - 🚀 Retraining model for: optimism
+2025-08-12 17:54:01,746 - ❌ Failed retraining for optimism: 'prices'
+
+2025-08-12 17:54:16,761 - 🚀 Retraining model for: arbitrum
+2025-08-12 17:54:16,807 - ❌ Failed retraining for arbitrum: 'prices'
+
+2025-08-12 17:54:31,822 - 🚀 Retraining model for: aptos
+2025-08-12 17:54:32,027 - ❌ Failed retraining for aptos: 'prices'
+
+2025-08-12 17:54:47,043 - 🚀 Retraining model for: sui
+2025-08-12 17:54:49,557 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:54:50,357 - ✅ Retraining completed for: sui
+
+2025-08-12 17:54:55,363 - 🚀 Retraining model for: algorand
+2025-08-12 17:54:58,034 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:54:58,817 - ✅ Retraining completed for: algorand
+
+2025-08-12 17:55:03,822 - 🚀 Retraining model for: hedera-hashgraph
+2025-08-12 17:55:06,355 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:55:07,058 - ✅ Retraining completed for: hedera-hashgraph
+
+2025-08-12 17:55:12,064 - 🚀 Retraining model for: near
+2025-08-12 17:55:14,898 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:55:15,682 - ✅ Retraining completed for: near
+
+2025-08-12 17:55:20,687 - 🚀 Retraining model for: render-token
+2025-08-12 17:55:23,844 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:55:24,677 - ✅ Retraining completed for: render-token
+
+2025-08-12 17:55:29,682 - 🚀 Retraining model for: mina-protocol
+2025-08-12 17:55:31,969 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:55:32,651 - ✅ Retraining completed for: mina-protocol
+
+2025-08-12 17:55:37,653 - 🚀 Retraining model for: fantom
+2025-08-12 17:55:40,318 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:55:41,107 - ✅ Retraining completed for: fantom
+
+2025-08-12 17:55:46,112 - 🚀 Retraining model for: theta-token
+2025-08-12 17:55:46,175 - ❌ Failed retraining for theta-token: 'prices'
+
+2025-08-12 17:56:01,187 - 🚀 Retraining model for: axie-infinity
+2025-08-12 17:56:01,264 - ❌ Failed retraining for axie-infinity: 'prices'
+
+2025-08-12 17:56:16,280 - 🚀 Retraining model for: flow
+2025-08-12 17:56:16,324 - ❌ Failed retraining for flow: 'prices'
+
+2025-08-12 17:56:31,339 - 🚀 Retraining model for: immutable-x
+2025-08-12 17:56:31,406 - ❌ Failed retraining for immutable-x: 'prices'
+
+2025-08-12 17:56:46,418 - 🚀 Retraining model for: lido-dao
+2025-08-12 17:56:50,396 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:56:51,173 - ✅ Retraining completed for: lido-dao
+
+2025-08-12 17:56:56,178 - 🚀 Retraining model for: gala
+2025-08-12 17:56:59,166 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:00,006 - ✅ Retraining completed for: gala
+
+2025-08-12 17:57:05,011 - 🚀 Retraining model for: chiliz
+2025-08-12 17:57:07,526 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:08,337 - ✅ Retraining completed for: chiliz
+
+2025-08-12 17:57:13,342 - 🚀 Retraining model for: oasis-network
+2025-08-12 17:57:16,549 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:17,347 - ✅ Retraining completed for: oasis-network
+
+2025-08-12 17:57:22,352 - 🚀 Retraining model for: iota
+2025-08-12 17:57:24,790 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:25,568 - ✅ Retraining completed for: iota
+
+2025-08-12 17:57:30,573 - 🚀 Retraining model for: zilliqa
+2025-08-12 17:57:33,042 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:33,860 - ✅ Retraining completed for: zilliqa
+
+2025-08-12 17:57:38,865 - 🚀 Retraining model for: basic-attention-token
+2025-08-12 17:57:41,963 - You are saving your model as an HDF5 file via `model.save()` or `keras.saving.save_model(model)`. This file format is considered legacy. We recommend using instead the native Keras format, e.g. `model.save('my_model.keras')` or `keras.saving.save_model(model, 'my_model.keras')`. 
+2025-08-12 17:57:43,244 - ✅ Retraining completed for: basic-attention-token
+
+2025-08-12 17:57:48,250 - 🚀 Retraining model for: enjincoin
+2025-08-12 17:57:48,294 - ❌ Failed retraining for enjincoin: 'prices'
+
+2025-08-12 17:58:03,309 - 🎉 Weekly retraining complete!
