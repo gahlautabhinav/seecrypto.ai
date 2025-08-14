@@ -1,4 +1,4 @@
-# 🚀 SeeCrypto.ai – Next-Day Crypto Price Prediction
+# 🚀 seecrypto.ai – Next-Day Crypto Price Prediction
 
 [![Streamlit App](https://img.shields.io/badge/Live_App-Click_to_Try-ff4b4b?logo=streamlit)](https://seecrypto-ai.streamlit.app)  
 Predict tomorrow’s cryptocurrency prices with AI-powered deep learning models.
@@ -7,7 +7,7 @@ Predict tomorrow’s cryptocurrency prices with AI-powered deep learning models.
 
 ## 🌟 Overview
 
-**SeeCrypto.ai** is an AI-driven cryptocurrency prediction tool built with **Streamlit** and powered by an **LSTM (Long Short-Term Memory)** neural network.  
+**seecrypto.ai** is an AI-driven cryptocurrency prediction tool built with **Streamlit** and powered by an **LSTM (Long Short-Term Memory)** neural network.  
 It analyzes historical price data to forecast the **next-day price** of your favorite cryptocurrency.
 
 🔗 **Live App:** [seecrypto-ai.streamlit.app](https://seecrypto-ai.streamlit.app)
