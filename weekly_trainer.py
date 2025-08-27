@@ -37,8 +37,9 @@ if __name__ == "__main__":
             logging.info(f"🚀 Retraining model for: {coin}")
             main(coin)
             logging.info(f"✅ Retraining completed for: {coin}\n")
-            time.sleep(5)
+            time.sleep(15)
         except Exception as e:
             logging.error(f"❌ Failed retraining for {coin}: {e}\n")
             time.sleep(15)
     logging.info("🎉 Weekly retraining complete!")
+
