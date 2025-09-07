@@ -25,3 +25,5 @@ It analyzes historical price data to forecast the **next-day price** of your fav
 
 ## 🖼️ App Preview
 <img width="1901" height="836" alt="Image" src="https://github.com/user-attachments/assets/fd7fbc9b-01bb-409a-aca7-c0e9ce441eb1" />
+
+<img width="1919" height="799" alt="Image" src="https://github.com/user-attachments/assets/081e125c-7460-42e2-9b67-758714338576" />
